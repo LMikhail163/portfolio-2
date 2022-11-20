@@ -344,7 +344,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: #151515;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 60px 40px;
   margin-top: -60px;
 }
 
@@ -362,7 +362,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-slider {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   position: relative;
 }
@@ -378,6 +378,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+.skill-slider .react-multiple-carousel__arrow--left {
+  left: calc(1% + 1px);
+}
+
+.skill-slider .react-multiple-carousel__arrow--right {
+  right: calc(1% + 1px);
 }
 
 /* Projects Css */
